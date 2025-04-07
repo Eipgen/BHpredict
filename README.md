@@ -76,6 +76,6 @@ python get_energy.py --model models/wb97M-V/GRAMandT1X/model.out/model.pth --raw
 
 <div align="center">
   <img src="./test_sets/Figure4.jpg" width="400px" alt="models in BH9">
-  <p>Model performance was evaluated on independent test sets BH9 database(97 rractions) </p>
+  <p>Model performance was evaluated on independent test sets BH9 database(97 reactions) </p>
 </div>
 

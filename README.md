@@ -33,7 +33,7 @@ or you can install
 pip install git+https://github.com/deepmodeling/deepks-kit/
 ```
 ## Train our datasets
-you can download examples datasets from [zenodo.14876882](https://zenodo.org/records/14876882)
+you can download our examples datasets from [zenodo.14876882](https://zenodo.org/records/14876882)
 The datasets is Below,  `QM` document contain the each type DFT training parameters`train_input.yaml` and datasets path such as `train.raw`, and `get_energy.py` will give you output energy.
 
 `test_sets` also have contain the "eigenvaleu of local density matrix" of test sets and the end reults

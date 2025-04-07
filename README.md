@@ -68,14 +68,14 @@ python get_energy.py --model models/wb97M-V/GRAMandT1X/model.out/model.pth --raw
 
 ## Results
 <div align="center">
-  <img src="./Figure3.jpg" width="400px" alt="models in BH9">
+  <img src="./test_sets/Figure3.jpg" width="400px" alt="models in BH9">
   <p>Model performance was evaluated on independent test sets RGD1 database(83 reactions)</p>
 </div>
 
 
 
 <div align="center">
-  <img src="./Figure4.jpg" width="400px" alt="models in BH9">
+  <img src="./test_sets/Figure4.jpg" width="400px" alt="models in BH9">
   <p>Model performance was evaluated on independent test sets BH9 database(97 rractions) </p>
 </div>
 

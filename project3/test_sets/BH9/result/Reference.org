@@ -1,0 +1,450 @@
+|  id | Type | Subtype                   | System | Forward BH (kcal/mol) | Reverse BH (kcal/mol) | RE (kcal/mol) |
+|   1 | I    | Radical rearrangement     | 01_1   |                 11.74 |                  9.01 |          2.74 |
+|   2 | I    | Radical rearrangement     | 01_2   |                 38.51 |                  6.56 |         31.94 |
+|   3 | I    | Radical rearrangement     | 01_3   |                 17.10 |                 15.18 |          1.92 |
+|   4 | I    | Radical rearrangement     | 01_4   |                 10.80 |                 20.54 |         -9.74 |
+|   5 | I    | Radical rearrangement     | 01_5   |                  8.56 |                 10.84 |         -2.28 |
+|   6 | I    | Radical rearrangement     | 01_6   |                  6.92 |                 26.65 |        -19.73 |
+|   7 | I    | Radical rearrangement     | 01_7   |                  7.94 |                 24.57 |        -16.63 |
+|   8 | I    | Radical rearrangement     | 01_8   |                 13.67 |                 20.45 |         -6.77 |
+|   9 | I    | Radical addition          | 01_9   |                 -0.79 |                 15.79 |        -16.58 |
+|  10 | I    | Radical rearrangement     | 01_10  |                  7.64 |                 31.53 |        -23.89 |
+|  11 | I    | Radical rearrangement     | 01_11  |                 10.88 |                  8.30 |          2.58 |
+|  12 | I    | Radical rearrangement     | 01_12  |                  3.37 |                 36.53 |        -33.16 |
+|  13 | I    | Radical rearrangement     | 01_13  |                 14.83 |                 20.64 |         -5.81 |
+|  14 | I    | Radical rearrangement     | 01_14  |                  7.96 |                 23.95 |        -15.99 |
+|  15 | I    | Radical rearrangement     | 01_15  |                  9.35 |                 11.72 |         -2.37 |
+|  16 | I    | Radical rearrangement     | 01_16  |                 17.04 |                 15.20 |          1.85 |
+|  17 | I    | Radical rearrangement     | 01_17  |                 16.96 |                  3.87 |         13.09 |
+|  18 | I    | Radical rearrangement     | 01_18  |                  7.76 |                 19.98 |        -12.22 |
+|  19 | I    | Radical rearrangement     | 01_19  |                  4.25 |                 36.12 |        -31.88 |
+|  20 | I    | Radical rearrangement     | 01_20  |                  5.78 |                 30.88 |        -25.10 |
+|  21 | I    | Radical rearrangement     | 01_21  |                  5.42 |                 25.97 |        -20.55 |
+|  22 | I    | Radical rearrangement     | 01_22  |                 16.38 |                  9.26 |          7.13 |
+|  23 | I    | Radical rearrangement     | 01_23  |                 12.96 |                  9.63 |          3.33 |
+|  24 | I    | Radical rearrangement     | 01_24  |                  7.11 |                 24.94 |        -17.82 |
+|  25 | I    | Radical rearrangement     | 01_25  |                  6.75 |                 21.05 |        -14.30 |
+|  26 | I    | Radical rearrangement     | 01_26  |                 18.76 |                  2.40 |         16.36 |
+|  27 | I    | Radical rearrangement     | 01_27  |                  9.78 |                 18.83 |         -9.05 |
+|  28 | I    | Radical rearrangement     | 01_28  |                 22.46 |                  9.64 |         12.82 |
+|  29 | I    | Radical rearrangement     | 01_29  |                  7.92 |                 18.08 |        -10.16 |
+|  30 | I    | Radical rearrangement     | 01_30  |                 14.29 |                  6.03 |          8.26 |
+|  31 | I    | Radical rearrangement     | 01_31  |                 24.18 |                  7.64 |         16.54 |
+|  32 | I    | Radical rearrangement     | 01_32  |                 11.47 |                 10.55 |          0.92 |
+|  33 | I    | Radical rearrangement     | 01_33  |                 20.07 |                  3.03 |         17.04 |
+|  34 | I    | Radical rearrangement     | 01_34  |                 13.02 |                  8.08 |          4.94 |
+|  35 | I    | Radical rearrangement     | 01_35  |                  9.68 |                 27.80 |        -18.12 |
+|  36 | I    | Radical rearrangement     | 01_36  |                  7.82 |                 18.49 |        -10.67 |
+|  37 | I    | Radical rearrangement     | 01_37  |                  6.15 |                 31.91 |        -25.76 |
+|  38 | I    | Radical rearrangement     | 01_38  |                  6.29 |                 30.93 |        -24.64 |
+|  39 | I    | Radical rearrangement     | 01_39  |                  5.30 |                 27.45 |        -22.15 |
+|  40 | I    | Radical rearrangement     | 01_40  |                  5.71 |                 24.84 |        -19.13 |
+|  41 | I    | Radical rearrangement     | 01_41  |                  7.58 |                -15.38 |         22.96 |
+|  42 | I    | Radical rearrangement     | 01_42  |                 13.31 |                 13.52 |         -0.22 |
+|  43 | I    | Radical rearrangement     | 01_43  |                  5.45 |                 25.56 |        -20.11 |
+|  44 | I    | Radical rearrangement     | 01_44  |                  6.10 |                 22.21 |        -16.11 |
+|  45 | I    | Radical rearrangement     | 01_45  |                -26.78 |                 -5.68 |        -21.10 |
+|  46 | I    | Radical addition          | 01_46  |                  0.01 |                 19.72 |        -19.71 |
+|  47 | I    | Radical rearrangement     | 01_47  |                  7.47 |                 58.28 |        -50.81 |
+|  48 | I    | Radical addition          | 01_48  |                  0.37 |                 22.46 |        -22.09 |
+|  49 | II   | Diels-Alder               | 02_1   |                  8.10 |                 43.77 |        -35.66 |
+|  50 | II   | Diels-Alder               | 02_2   |                  8.85 |                 43.49 |        -34.63 |
+|  51 | II   | Diels-Alder               | 02_3   |                 11.45 |                 47.83 |        -36.38 |
+|  52 | II   | Diels-Alder               | 02_4   |                 10.15 |                 47.06 |        -36.92 |
+|  53 | II   | Diels-Alder               | 02_5   |                 26.57 |                 93.72 |        -67.15 |
+|  54 | II   | Diels-Alder               | 02_6   |                 26.77 |                 62.05 |        -35.27 |
+|  55 | II   | Diels-Alder               | 02_7   |                 19.07 |                 39.40 |        -20.32 |
+|  56 | II   | Diels-Alder               | 02_8   |                 12.20 |                 36.77 |        -24.57 |
+|  57 | II   | Diels-Alder               | 02_9   |                 17.83 |                 47.85 |        -30.02 |
+|  58 | II   | Diels-Alder               | 02_10  |                 19.75 |                 50.92 |        -31.17 |
+|  59 | II   | Diels-Alder               | 02_11  |                 23.08 |                 45.70 |        -22.62 |
+|  60 | II   | Diels-Alder               | 02_12  |                 24.51 |                 44.87 |        -20.36 |
+|  61 | II   | Diels-Alder               | 02_13  |                 24.90 |                 60.92 |        -36.03 |
+|  62 | II   | Diels-Alder               | 02_14  |                 21.97 |                 60.48 |        -38.51 |
+|  63 | II   | Diels-Alder               | 02_15  |                 25.29 |                 60.68 |        -35.39 |
+|  64 | II   | Diels-Alder               | 02_16  |                 23.43 |                 53.32 |        -29.89 |
+|  65 | II   | Diels-Alder               | 02_17  |                 15.27 |                 59.46 |        -44.18 |
+|  66 | II   | Diels-Alder               | 02_18  |                 19.86 |                 70.40 |        -50.54 |
+|  67 | II   | Diels-Alder               | 02_19  |                 22.04 |                 59.33 |        -37.29 |
+|  68 | II   | Diels-Alder               | 02_20  |                 19.10 |                 56.89 |        -37.79 |
+|  69 | II   | Diels-Alder               | 02_21  |                 12.40 |                 62.14 |        -49.74 |
+|  70 | II   | Diels-Alder               | 02_22  |                  8.83 |                 68.85 |        -60.01 |
+|  71 | II   | Diels-Alder               | 02_23  |                 24.81 |                 57.02 |        -32.21 |
+|  72 | II   | Diels-Alder               | 02_24  |                 26.62 |                 73.95 |        -47.33 |
+|  73 | II   | Diels-Alder               | 02_25  |                 23.55 |                 54.52 |        -30.97 |
+|  74 | II   | Diels-Alder               | 02_26  |                 27.83 |                 47.79 |        -19.96 |
+|  75 | II   | Diels-Alder               | 02_27  |                 29.60 |                 50.22 |        -20.62 |
+|  76 | II   | Diels-Alder               | 02_28  |                 21.69 |                 38.32 |        -16.63 |
+|  77 | II   | Diels-Alder               | 02_29  |                  1.65 |                 35.57 |        -33.92 |
+|  78 | II   | Diels-Alder               | 02_30  |                  7.98 |                 55.02 |        -47.04 |
+|  79 | II   | Diels-Alder               | 02_31  |                 15.12 |                 36.68 |        -21.56 |
+|  80 | II   | Diels-Alder               | 02_32  |                  6.61 |                 54.79 |        -48.18 |
+|  81 | II   | Diels-Alder               | 02_33  |                 11.62 |                 53.25 |        -41.63 |
+|  82 | II   | Diels-Alder               | 02_34  |                 18.28 |                 30.48 |        -12.21 |
+|  83 | II   | Diels-Alder               | 02_35  |                 16.53 |                 29.81 |        -13.28 |
+|  84 | II   | Diels-Alder               | 02_36  |                 15.49 |                 33.65 |        -18.16 |
+|  85 | II   | Diels-Alder               | 02_37  |                 17.00 |                 34.43 |        -17.43 |
+|  86 | II   | Diels-Alder               | 02_38  |                 22.73 |                 36.09 |        -13.36 |
+|  87 | II   | Diels-Alder               | 02_39  |                 37.42 |                 39.32 |         -1.90 |
+|  88 | II   | Diels-Alder               | 02_40  |                 14.26 |                 27.77 |        -13.51 |
+|  89 | II   | Diels-Alder               | 02_41  |                 28.06 |                 31.78 |         -3.72 |
+|  90 | II   | Diels-Alder               | 02_42  |                  8.58 |                 47.74 |        -39.15 |
+|  91 | II   | Diels-Alder               | 02_43  |                 16.35 |                 48.76 |        -32.41 |
+|  92 | II   | Diels-Alder               | 02_44  |                 16.64 |                 53.18 |        -36.54 |
+|  93 | II   | Diels-Alder               | 02_45  |                 16.98 |                 59.46 |        -42.48 |
+|  94 | II   | Diels-Alder               | 02_46  |                 26.48 |                 51.36 |        -24.88 |
+|  95 | II   | Diels-Alder               | 02_47  |                 -1.34 |                 88.51 |        -89.85 |
+|  96 | II   | Diels-Alder               | 02_48  |                  1.98 |                 86.44 |        -84.47 |
+|  97 | II   | Diels-Alder               | 02_49  |                 13.95 |                 47.20 |        -33.24 |
+|  98 | II   | [3+2] cycloaddition       | 02_50  |                 18.44 |                 35.48 |        -17.04 |
+|  99 | II   | [3+2] cycloaddition       | 02_51  |                 -1.95 |                 24.26 |        -26.21 |
+| 100 | II   | [3+2] cycloaddition       | 02_52  |                 12.39 |                 36.11 |        -23.72 |
+| 101 | II   | [3+2] cycloaddition       | 02_53  |                 10.45 |                 35.89 |        -25.44 |
+| 102 | II   | [3+2] cycloaddition       | 02_54  |                 -0.12 |                 26.38 |        -26.50 |
+| 103 | II   | [3+2] cycloaddition       | 02_55  |                 12.65 |                 52.78 |        -40.12 |
+| 104 | II   | [3+2] cycloaddition       | 02_56  |                 11.60 |                 91.82 |        -80.21 |
+| 105 | II   | [3+2] cycloaddition       | 02_57  |                  8.10 |                 84.96 |        -76.87 |
+| 106 | II   | [3+2] cycloaddition       | 02_58  |                 15.43 |                 68.29 |        -52.86 |
+| 107 | II   | [3+2] cycloaddition       | 02_59  |                 15.30 |                 67.99 |        -52.69 |
+| 108 | II   | [3+2] cycloaddition       | 02_60  |                  5.93 |                 86.94 |        -81.00 |
+| 109 | II   | [3+2] cycloaddition       | 02_61  |                  0.41 |                 56.60 |        -56.19 |
+| 110 | II   | [3+2] cycloaddition       | 02_62  |                  3.87 |                 58.42 |        -54.55 |
+| 111 | II   | [3+2] cycloaddition       | 02_63  |                 16.87 |                 41.50 |        -24.63 |
+| 112 | II   | [3+2] cycloaddition       | 02_64  |                  5.38 |                 50.91 |        -45.54 |
+| 113 | II   | [3+2] cycloaddition       | 02_65  |                  8.08 |                 56.87 |        -48.79 |
+| 114 | II   | [3+2] cycloaddition       | 02_66  |                  6.79 |                 55.77 |        -48.98 |
+| 115 | II   | [3+2] cycloaddition       | 02_67  |                  6.93 |                 34.09 |        -27.16 |
+| 116 | II   | [3+2] cycloaddition       | 02_68  |                  8.70 |                 35.15 |        -26.45 |
+| 117 | II   | [3+2] cycloaddition       | 02_69  |                 13.35 |                 38.42 |        -25.07 |
+| 118 | II   | [3+2] cycloaddition       | 02_70  |                 33.30 |                 41.80 |         -8.51 |
+| 119 | II   | [3+2] cycloaddition       | 02_71  |                 34.78 |                 40.16 |         -5.38 |
+| 120 | II   | [3+2] cycloaddition       | 02_72  |                 26.38 |                 51.44 |        -25.06 |
+| 121 | II   | [3+2] cycloaddition       | 02_73  |                 10.06 |                 45.53 |        -35.47 |
+| 122 | II   | [3+2] cycloaddition       | 02_74  |                 27.86 |                 26.23 |          1.63 |
+| 123 | II   | [3+2] cycloaddition       | 02_75  |                  9.79 |                 41.83 |        -32.04 |
+| 124 | II   | [3+2] cycloaddition       | 02_76  |                 20.35 |                 37.37 |        -17.02 |
+| 125 | II   | [3+2] cycloaddition       | 02_77  |                  6.99 |                 46.28 |        -39.30 |
+| 126 | II   | [3+2] cycloaddition       | 02_78  |                 19.13 |                 38.27 |        -19.14 |
+| 127 | II   | [3+2] cycloaddition       | 02_79  |                  1.94 |                 42.25 |        -40.31 |
+| 128 | II   | [3+2] cycloaddition       | 02_80  |                 28.38 |                 41.25 |        -12.87 |
+| 129 | II   | [3+2] cycloaddition       | 02_81  |                 11.14 |                 43.06 |        -31.92 |
+| 130 | II   | Electrocyclic             | 02_82  |                 10.61 |                 37.95 |        -27.34 |
+| 131 | II   | Electrocyclic             | 02_83  |                 17.65 |                 44.98 |        -27.33 |
+| 132 | II   | Electrocyclic             | 02_84  |                 26.68 |                 50.51 |        -23.83 |
+| 133 | II   | Electrocyclic             | 02_85  |                 30.66 |                 51.43 |        -20.78 |
+| 134 | II   | Electrocyclic             | 02_86  |                 27.74 |                 52.70 |        -24.96 |
+| 135 | II   | Electrocyclic             | 02_87  |                 30.73 |                 53.65 |        -22.91 |
+| 136 | II   | Electrocyclic             | 02_88  |                 24.91 |                 51.36 |        -26.45 |
+| 137 | II   | Electrocyclic             | 02_89  |                 28.62 |                 52.88 |        -24.26 |
+| 138 | II   | Electrocyclic             | 02_90  |                 27.43 |                 52.17 |        -24.74 |
+| 139 | II   | Electrocyclic             | 02_91  |                 31.00 |                 54.55 |        -23.55 |
+| 140 | II   | Electrocyclic             | 02_92  |                 23.66 |                 53.48 |        -29.82 |
+| 141 | II   | Electrocyclic             | 02_93  |                 28.69 |                 54.95 |        -26.26 |
+| 142 | II   | Electrocyclic             | 02_94  |                 25.60 |                 54.46 |        -28.86 |
+| 143 | II   | Electrocyclic             | 02_95  |                 28.02 |                 55.88 |        -27.86 |
+| 144 | II   | Electrocyclic             | 02_96  |                 11.39 |                 15.19 |         -3.80 |
+| 145 | II   | Electrocyclic             | 02_97  |                 43.52 |                 21.76 |         21.76 |
+| 146 | II   | Electrocyclic             | 02_98  |                 33.08 |                 45.42 |        -12.34 |
+| 147 | II   | Electrocyclic             | 02_99  |                 44.28 |                 54.35 |        -10.07 |
+| 148 | II   | Electrocyclic             | 02_100 |                 36.07 |                 19.79 |         16.28 |
+| 149 | II   | Electrocyclic             | 02_101 |                 41.80 |                 45.81 |         -4.01 |
+| 150 | II   | Electrocyclic             | 02_102 |                 38.73 |                 36.55 |          2.18 |
+| 151 | II   | Electrocyclic             | 02_103 |                 36.24 |                 36.68 |         -0.44 |
+| 152 | II   | Electrocyclic             | 02_104 |                 13.10 |                 40.49 |        -27.39 |
+| 153 | II   | Electrocyclic             | 02_105 |                 48.25 |                 42.24 |          6.01 |
+| 154 | II   | [4+6] cycloaddition       | 02_106 |                 11.53 |                 29.79 |        -18.26 |
+| 155 | II   | [6+4] cycloaddition       | 02_107 |                 11.53 |                 36.38 |        -24.85 |
+| 156 | II   | [8+2] cycloaddition       | 02_108 |                 11.53 |                 35.01 |        -23.48 |
+| 157 | II   | [3,3] rearrangement       | 02_109 |                 43.45 |                 50.58 |         -7.13 |
+| 158 | II   | [3,3] rearrangement       | 02_110 |                 43.45 |                 57.37 |        -13.92 |
+| 159 | II   | [3,3] rearrangement       | 02_111 |                 36.96 |                 51.17 |        -14.22 |
+| 160 | II   | [4+6] cycloaddition       | 02_112 |                 12.84 |                 31.12 |        -18.28 |
+| 161 | II   | [6+4] cycloaddition       | 02_113 |                 12.84 |                 36.75 |        -23.91 |
+| 162 | II   | [8+2] cycloaddition       | 02_114 |                 12.84 |                 37.94 |        -25.10 |
+| 163 | II   | [4+6] cycloaddition       | 02_115 |                 11.83 |                 30.11 |        -18.28 |
+| 164 | II   | [6+4] cycloaddition       | 02_116 |                 11.83 |                 35.81 |        -23.98 |
+| 165 | II   | [8+2] cycloaddition       | 02_117 |                 11.83 |                 40.21 |        -28.38 |
+| 166 | II   | [4+2] intramolecular      | 02_118 |                 22.52 |                 41.61 |        -19.09 |
+| 167 | II   | [6+4] intramolecular      | 02_119 |                 18.91 |                 47.58 |        -28.67 |
+| 168 | II   | [4+2] intramolecular      | 02_120 |                 16.79 |                 43.12 |        -26.33 |
+| 169 | II   | [6+4] intramolecular      | 02_121 |                 16.79 |                 54.33 |        -37.54 |
+| 170 | II   | [4+2] intramolecular      | 02_122 |                 19.29 |                 37.46 |        -18.17 |
+| 171 | II   | [6+4] intramolecular      | 02_123 |                 19.29 |                 41.95 |        -22.66 |
+| 172 | II   | [4+2] intramolecular      | 02_124 |                 21.68 |                 46.02 |        -24.34 |
+| 173 | II   | [6+4] intramolecular      | 02_125 |                 21.68 |                 47.32 |        -25.64 |
+| 174 | II   | [3,3] rearrangement       | 02_126 |                 20.25 |                 26.19 |         -5.95 |
+| 175 | II   | [3,3] rearrangement       | 02_127 |                 20.95 |                 32.16 |        -11.21 |
+| 176 | II   | [3,3] rearrangement       | 02_128 |                 32.74 |                 41.45 |         -8.71 |
+| 177 | II   | [3,3] rearrangement       | 02_129 |                 34.42 |                 40.15 |         -5.73 |
+| 178 | II   | [3,3] rearrangement       | 02_130 |                 35.40 |                 43.32 |         -7.92 |
+| 179 | II   | [3,3] rearrangement       | 02_131 |                 32.39 |                 43.38 |        -10.99 |
+| 180 | II   | [3,3] rearrangement       | 02_132 |                 32.92 |                 41.10 |         -8.18 |
+| 181 | II   | [3,3] rearrangement       | 02_133 |                 33.84 |                 44.83 |        -10.99 |
+| 182 | II   | [3,3] rearrangement       | 02_134 |                 32.08 |                 49.61 |        -17.53 |
+| 183 | II   | [3,3] rearrangement       | 02_135 |                 28.35 |                 44.42 |        -16.07 |
+| 184 | II   | [3,3] rearrangement       | 02_136 |                 29.79 |                 45.83 |        -16.04 |
+| 185 | II   | [3,3] rearrangement       | 02_137 |                 25.98 |                 41.35 |        -15.37 |
+| 186 | II   | [3,3] rearrangement       | 02_138 |                 31.94 |                 28.09 |          3.85 |
+| 187 | II   | [3,3] rearrangement       | 02_139 |                 34.37 |                 50.96 |        -16.59 |
+| 188 | II   | [2+2+2] intramolecular    | 02_140 |                 54.84 |                144.39 |        -89.55 |
+| 189 | III  | Halogen atom transfer     | 03_1   |                 47.62 |                 11.46 |         36.16 |
+| 190 | III  | Halogen atom transfer     | 03_2   |                 45.08 |                 13.69 |         31.39 |
+| 191 | III  | Halogen atom transfer     | 03_3   |                 15.39 |                  4.08 |         11.31 |
+| 192 | III  | Halogen atom transfer     | 03_4   |                 15.91 |                 13.98 |          1.93 |
+| 193 | III  | Halogen atom transfer     | 03_5   |                  4.23 |                  4.65 |         -0.42 |
+| 194 | III  | Halogen atom transfer     | 03_6   |                 -1.35 |                  1.80 |         -3.16 |
+| 195 | III  | Halogen atom transfer     | 03_7   |                 42.38 |                 17.76 |         24.62 |
+| 196 | III  | Halogen atom transfer     | 03_8   |                 42.36 |                 17.42 |         24.94 |
+| 197 | III  | Halogen atom transfer     | 03_9   |                -67.71 |                -62.16 |         -5.55 |
+| 198 | III  | Halogen atom transfer     | 03_10  |                 41.34 |                  7.92 |         33.42 |
+| 199 | III  | Halogen atom transfer     | 03_11  |                  0.50 |                  5.21 |         -4.70 |
+| 200 | III  | Halogen atom transfer     | 03_12  |                 43.97 |                 20.13 |         23.84 |
+| 201 | III  | Halogen atom transfer     | 03_13  |                  3.23 |                 11.60 |         -8.37 |
+| 202 | III  | Halogen atom transfer     | 03_14  |                  3.48 |                 11.59 |         -8.11 |
+| 203 | III  | Halogen atom transfer     | 03_15  |                 41.94 |                 16.76 |         25.18 |
+| 204 | III  | Halogen atom transfer     | 03_16  |                 77.42 |                 81.94 |         -4.52 |
+| 205 | III  | Halogen atom transfer     | 03_17  |                  9.22 |                 14.73 |         -5.52 |
+| 206 | III  | Halogen atom transfer     | 03_18  |                  2.95 |                 11.10 |         -8.15 |
+| 207 | III  | Halogen atom transfer     | 03_19  |                 -0.68 |                  3.87 |         -4.54 |
+| 208 | III  | Halogen atom transfer     | 03_20  |                  2.41 |                 10.55 |         -8.14 |
+| 209 | III  | Halogen atom transfer     | 03_21  |                 12.96 |                 23.34 |        -10.38 |
+| 210 | III  | Halogen atom transfer     | 03_22  |                 10.47 |                 18.30 |         -7.83 |
+| 211 | III  | Halogen atom transfer     | 03_23  |                 18.66 |                 10.80 |          7.85 |
+| 212 | III  | Halogen atom transfer     | 03_24  |                 41.74 |                  8.44 |         33.31 |
+| 213 | III  | Halogen atom transfer     | 03_25  |                 26.26 |                 34.43 |         -8.17 |
+| 214 | III  | Halogen atom transfer     | 03_26  |                  5.84 |                 26.05 |        -20.21 |
+| 215 | III  | Halogen atom transfer     | 03_27  |                 53.90 |                 10.31 |         43.59 |
+| 216 | III  | Halogen atom transfer     | 03_28  |                 56.10 |                 11.62 |         44.48 |
+| 217 | III  | Halogen atom transfer     | 03_29  |                 26.77 |                  1.36 |         25.42 |
+| 218 | III  | Halogen atom transfer     | 03_30  |                 14.71 |                 34.21 |        -19.50 |
+| 219 | III  | Halogen atom transfer     | 03_31  |                 51.57 |                 12.40 |         39.17 |
+| 220 | III  | Halogen atom transfer     | 03_32  |                 52.03 |                 12.75 |         39.29 |
+| 221 | III  | Halogen atom transfer     | 03_33  |                  6.22 |                 25.32 |        -19.10 |
+| 222 | III  | Halogen atom transfer     | 03_34  |                 12.79 |                 22.60 |         -9.81 |
+| 223 | III  | Halogen atom transfer     | 03_35  |                 16.87 |                  8.88 |          7.99 |
+| 224 | III  | Halogen atom transfer     | 03_36  |                 16.65 |                  8.64 |          8.02 |
+| 225 | III  | Halogen atom transfer     | 03_37  |                  8.00 |                 47.09 |        -39.09 |
+| 226 | III  | Halogen atom transfer     | 03_38  |                 10.67 |                 31.39 |        -20.71 |
+| 227 | III  | Halogen atom transfer     | 03_39  |                 11.00 |                 24.57 |        -13.57 |
+| 228 | III  | Halogen atom transfer     | 03_40  |                 10.04 |                 20.95 |        -10.91 |
+| 229 | III  | Halogen atom transfer     | 03_41  |                  7.96 |                 35.40 |        -27.43 |
+| 230 | III  | Halogen atom transfer     | 03_42  |                 21.33 |                 10.29 |         11.03 |
+| 231 | III  | Halogen atom transfer     | 03_43  |                 46.53 |                 -3.19 |         49.72 |
+| 232 | IV   | Hydrogen atom transfer    | 04_1   |                 16.42 |                 12.36 |          4.06 |
+| 233 | IV   | Hydrogen atom transfer    | 04_2   |                 11.89 |                 19.47 |         -7.58 |
+| 234 | IV   | Hydrogen atom transfer    | 04_3   |                  4.80 |                  4.58 |          0.22 |
+| 235 | IV   | Hydrogen atom transfer    | 04_4   |                 16.44 |                 12.67 |          3.77 |
+| 236 | IV   | Hydrogen atom transfer    | 04_5   |                 13.93 |                  0.17 |         13.76 |
+| 237 | IV   | Hydrogen atom transfer    | 04_6   |                  6.44 |                  2.44 |          4.01 |
+| 238 | IV   | Hydrogen atom transfer    | 04_7   |                  4.00 |                  4.61 |         -0.61 |
+| 239 | IV   | Hydrogen atom transfer    | 04_8   |                 12.36 |                 21.11 |         -8.75 |
+| 240 | IV   | Hydrogen atom transfer    | 04_9   |                 17.45 |                 17.15 |          0.30 |
+| 241 | IV   | Hydrogen atom transfer    | 04_10  |                 16.29 |                 17.84 |         -1.56 |
+| 242 | IV   | Hydrogen atom transfer    | 04_11  |                 34.10 |                 12.51 |         21.59 |
+| 243 | IV   | Hydrogen atom transfer    | 04_12  |                 12.97 |                 15.74 |         -2.77 |
+| 244 | IV   | Hydrogen atom transfer    | 04_13  |                 30.51 |                 19.78 |         10.73 |
+| 245 | IV   | Hydrogen atom transfer    | 04_14  |                 27.87 |                 18.89 |          8.98 |
+| 246 | IV   | Hydrogen atom transfer    | 04_15  |                 23.98 |                 16.31 |          7.67 |
+| 247 | IV   | Hydrogen atom transfer    | 04_16  |                 14.52 |                 13.49 |          1.02 |
+| 248 | IV   | Hydrogen atom transfer    | 04_17  |                  9.08 |                  9.37 |         -0.29 |
+| 249 | IV   | Hydrogen atom transfer    | 04_18  |                 12.84 |                  3.23 |          9.61 |
+| 250 | IV   | Hydrogen atom transfer    | 04_19  |                 10.35 |                  9.72 |          0.63 |
+| 251 | IV   | Hydrogen atom transfer    | 04_20  |                 12.19 |                 19.25 |         -7.06 |
+| 252 | IV   | Hydrogen atom transfer    | 04_21  |                 11.81 |                 20.88 |         -9.06 |
+| 253 | IV   | Hydrogen atom transfer    | 04_22  |                 13.47 |                  6.04 |          7.43 |
+| 254 | IV   | Hydrogen atom transfer    | 04_23  |                 11.29 |                  6.86 |          4.43 |
+| 255 | IV   | Hydrogen atom transfer    | 04_24  |                 18.51 |                 15.80 |          2.71 |
+| 256 | IV   | Hydrogen atom transfer    | 04_25  |                 14.12 |                 12.73 |          1.39 |
+| 257 | IV   | Hydrogen atom transfer    | 04_26  |                 14.83 |                 20.51 |         -5.68 |
+| 258 | IV   | Hydrogen atom transfer    | 04_27  |                 13.20 |                 18.89 |         -5.69 |
+| 259 | IV   | Hydrogen atom transfer    | 04_28  |                 10.10 |                  8.71 |          1.38 |
+| 260 | IV   | Hydrogen atom transfer    | 04_29  |                 11.34 |                  5.16 |          6.19 |
+| 261 | IV   | Hydrogen atom transfer    | 04_30  |                  3.48 |                 35.56 |        -32.09 |
+| 262 | IV   | Hydrogen atom transfer    | 04_31  |                 10.13 |                 11.96 |         -1.83 |
+| 263 | IV   | Hydrogen atom transfer    | 04_32  |                 29.28 |                 18.90 |         10.38 |
+| 264 | IV   | Hydrogen atom transfer    | 04_33  |                 30.75 |                 20.43 |         10.31 |
+| 265 | IV   | Hydrogen atom transfer    | 04_34  |                 31.27 |                 20.17 |         11.10 |
+| 266 | IV   | Hydrogen atom transfer    | 04_35  |                 12.23 |                  7.14 |          5.09 |
+| 267 | IV   | Hydrogen atom transfer    | 04_36  |                 21.30 |                 19.97 |          1.33 |
+| 268 | IV   | Hydrogen atom transfer    | 04_37  |                 21.57 |                 19.91 |          1.66 |
+| 269 | IV   | Hydrogen atom transfer    | 04_38  |                  6.68 |                 17.92 |        -11.24 |
+| 270 | IV   | Hydrogen atom transfer    | 04_39  |                 13.24 |                  3.28 |          9.96 |
+| 271 | IV   | Hydrogen atom transfer    | 04_40  |                 27.97 |                 19.50 |          8.47 |
+| 272 | IV   | Hydrogen atom transfer    | 04_41  |                 18.43 |                 18.66 |         -0.24 |
+| 273 | IV   | Hydrogen atom transfer    | 04_42  |                 12.15 |                 16.10 |         -3.95 |
+| 274 | IV   | Hydrogen atom transfer    | 04_43  |                 13.68 |                 18.76 |         -5.08 |
+| 275 | IV   | Hydrogen atom transfer    | 04_44  |                 22.68 |                 15.83 |          6.85 |
+| 276 | IV   | Hydrogen atom transfer    | 04_45  |                  7.33 |                 22.38 |        -15.05 |
+| 277 | IV   | Hydrogen atom transfer    | 04_46  |                 11.46 |                  6.32 |          5.14 |
+| 278 | IV   | Hydrogen atom transfer    | 04_47  |                  5.60 |                 11.33 |         -5.72 |
+| 279 | IV   | Hydrogen atom transfer    | 04_48  |                  5.93 |                 11.61 |         -5.68 |
+| 280 | IV   | Hydrogen atom transfer    | 04_49  |                 12.58 |                 18.27 |         -5.69 |
+| 281 | IV   | Hydrogen atom transfer    | 04_50  |                 12.73 |                 18.65 |         -5.92 |
+| 282 | IV   | Hydrogen atom transfer    | 04_51  |                 11.99 |                 -0.34 |         12.34 |
+| 283 | IV   | Hydrogen atom transfer    | 04_52  |                  4.82 |                  9.92 |         -5.10 |
+| 284 | IV   | Hydrogen atom transfer    | 04_53  |                 12.35 |                  7.34 |          5.02 |
+| 285 | IV   | Hydrogen atom transfer    | 04_54  |                 19.94 |                  2.71 |         17.22 |
+| 286 | IV   | Hydrogen atom transfer    | 04_55  |                  6.94 |                 12.94 |         -6.00 |
+| 287 | IV   | Hydrogen atom transfer    | 04_56  |                 12.91 |                 18.25 |         -5.35 |
+| 288 | IV   | Hydrogen atom transfer    | 04_57  |                 14.38 |                 12.67 |          1.71 |
+| 289 | IV   | Hydrogen atom transfer    | 04_58  |                 12.42 |                  2.71 |          9.71 |
+| 290 | IV   | Hydrogen atom transfer    | 04_59  |                  5.02 |                 10.66 |         -5.64 |
+| 291 | IV   | Hydrogen atom transfer    | 04_60  |                  6.68 |                 12.22 |         -5.55 |
+| 292 | IV   | Hydrogen atom transfer    | 04_61  |                 11.91 |                 19.00 |         -7.09 |
+| 293 | IV   | Hydrogen atom transfer    | 04_62  |                 25.06 |                 34.50 |         -9.44 |
+| 294 | IV   | Hydrogen atom transfer    | 04_63  |                 12.43 |                 20.69 |         -8.26 |
+| 295 | IV   | Hydrogen atom transfer    | 04_64  |                 14.37 |                 17.61 |         -3.24 |
+| 296 | IV   | Hydrogen atom transfer    | 04_65  |                  3.46 |                  3.34 |          0.12 |
+| 297 | IV   | Hydrogen atom transfer    | 04_66  |                 12.91 |                  5.36 |          7.55 |
+| 298 | IV   | Hydrogen atom transfer    | 04_67  |                  3.55 |                  5.23 |         -1.69 |
+| 299 | IV   | Hydrogen atom transfer    | 04_68  |                  3.62 |                  2.75 |          0.87 |
+| 300 | IV   | Hydrogen atom transfer    | 04_69  |                 11.97 |                 19.19 |         -7.22 |
+| 301 | IV   | Hydrogen atom transfer    | 04_70  |                  5.16 |                 19.31 |        -14.15 |
+| 302 | IV   | Hydrogen atom transfer    | 04_71  |                 16.88 |                  8.08 |          8.80 |
+| 303 | IV   | Hydrogen atom transfer    | 04_72  |                 11.57 |                 19.48 |         -7.91 |
+| 304 | IV   | Hydrogen atom transfer    | 04_73  |                 30.00 |                 12.73 |         17.28 |
+| 305 | IV   | Hydrogen atom transfer    | 04_74  |                 14.37 |                  7.11 |          7.26 |
+| 306 | IV   | Hydrogen atom transfer    | 04_75  |                  3.66 |                  6.58 |         -2.91 |
+| 307 | IV   | Hydrogen atom transfer    | 04_76  |                 13.85 |                 18.38 |         -4.54 |
+| 308 | IV   | Hydrogen atom transfer    | 04_77  |                 12.93 |                  5.40 |          7.53 |
+| 309 | IV   | Hydrogen atom transfer    | 04_78  |                 13.54 |                 29.68 |        -16.14 |
+| 310 | IV   | Hydrogen atom transfer    | 04_79  |                 18.60 |                 11.78 |          6.82 |
+| 311 | IV   | Hydrogen atom transfer    | 04_80  |                  1.14 |                 15.53 |        -14.39 |
+| 312 | IV   | Hydrogen atom transfer    | 04_81  |                 -0.11 |                 14.46 |        -14.57 |
+| 313 | IV   | Hydrogen atom transfer    | 04_82  |                 16.39 |                 25.48 |         -9.09 |
+| 314 | IV   | Hydrogen atom transfer    | 04_83  |                 15.83 |                 25.03 |         -9.20 |
+| 315 | IV   | Hydrogen atom transfer    | 04_84  |                 11.86 |                 18.34 |         -6.48 |
+| 316 | IV   | Hydrogen atom transfer    | 04_85  |                 15.58 |                 27.22 |        -11.63 |
+| 317 | IV   | Hydrogen atom transfer    | 04_86  |                 15.31 |                 20.29 |         -4.98 |
+| 318 | IV   | Hydrogen atom transfer    | 04_87  |                  3.84 |                 18.14 |        -14.29 |
+| 319 | IV   | Hydrogen atom transfer    | 04_88  |                 33.51 |                 40.20 |         -6.69 |
+| 320 | IV   | Hydrogen atom transfer    | 04_89  |                 13.47 |                 22.19 |         -8.72 |
+| 321 | IV   | Hydrogen atom transfer    | 04_90  |                  0.28 |                 28.62 |        -28.35 |
+| 322 | V    | Hydride transfer          | 05_1   |                  0.85 |                  6.50 |         -5.65 |
+| 323 | V    | Hydride transfer          | 05_2   |                 22.01 |                 23.81 |         -1.79 |
+| 324 | V    | Hydride transfer          | 05_3   |                 14.75 |                 18.57 |         -3.82 |
+| 325 | V    | Hydride transfer          | 05_4   |                  5.49 |                 25.25 |        -19.76 |
+| 326 | V    | Hydride transfer          | 05_5   |                  1.51 |                 15.07 |        -13.56 |
+| 327 | V    | Hydride transfer          | 05_6   |                 10.00 |                 11.94 |         -1.94 |
+| 328 | V    | Hydride transfer          | 05_7   |                 16.81 |                 -0.50 |         17.31 |
+| 329 | V    | Hydride transfer          | 05_8   |                  1.04 |                  8.07 |         -7.03 |
+| 330 | V    | Hydride transfer          | 05_9   |                 -2.46 |                  8.58 |        -11.04 |
+| 331 | V    | Hydride transfer          | 05_10  |                 14.88 |                  5.63 |          9.25 |
+| 332 | V    | Hydride transfer          | 05_11  |                 14.99 |                 -4.21 |         19.20 |
+| 333 | V    | Hydride transfer          | 05_12  |                  5.79 |                 20.17 |        -14.38 |
+| 334 | V    | Hydride transfer          | 05_13  |                 17.06 |                 10.36 |          6.70 |
+| 335 | V    | Hydride transfer          | 05_14  |                  7.58 |                 16.78 |         -9.21 |
+| 336 | V    | Hydride transfer          | 05_15  |                 13.40 |                 18.28 |         -4.88 |
+| 337 | V    | Hydride transfer          | 05_16  |                 16.06 |                 18.89 |         -2.83 |
+| 338 | V    | Hydride transfer          | 05_17  |                 14.02 |                  3.43 |         10.58 |
+| 339 | V    | Hydride transfer          | 05_18  |                 20.63 |                -96.26 |        116.88 |
+| 340 | V    | Hydride transfer          | 05_19  |                 12.54 |                 14.68 |         -2.14 |
+| 341 | V    | Hydride transfer          | 05_20  |                  5.38 |                 16.10 |        -10.72 |
+| 342 | V    | Hydride transfer          | 05_21  |                  3.60 |                 19.57 |        -15.96 |
+| 343 | V    | Hydride transfer          | 05_22  |                 21.77 |                 13.81 |          7.95 |
+| 344 | V    | Hydride transfer          | 05_23  |                 12.53 |                 21.75 |         -9.23 |
+| 345 | V    | Hydride transfer          | 05_24  |                 14.19 |                  5.33 |          8.86 |
+| 346 | V    | Hydride transfer          | 05_25  |                  9.50 |                 23.84 |        -14.33 |
+| 347 | V    | Hydride transfer          | 05_26  |                  4.49 |                 17.53 |        -13.03 |
+| 348 | V    | Hydride transfer          | 05_27  |                  1.54 |                 18.71 |        -17.17 |
+| 349 | V    | Hydride transfer          | 05_28  |                  9.84 |                 12.24 |         -2.39 |
+| 350 | V    | Hydride transfer          | 05_29  |                 12.06 |                  8.00 |          4.06 |
+| 351 | V    | Hydride transfer          | 05_30  |                  8.70 |                 19.21 |        -10.52 |
+| 352 | V    | Hydride transfer          | 05_31  |                 15.27 |                 18.26 |         -2.99 |
+| 353 | V    | Hydride transfer          | 05_32  |                  4.56 |                 19.64 |        -15.08 |
+| 354 | V    | Hydride transfer          | 05_33  |                  1.97 |                 19.13 |        -17.16 |
+| 355 | V    | Hydride transfer          | 05_34  |                  1.14 |                 20.97 |        -19.83 |
+| 356 | V    | Hydride transfer          | 05_35  |                  0.74 |                 20.87 |        -20.12 |
+| 357 | V    | Hydride transfer          | 05_36  |                 10.15 |                 10.19 |         -0.04 |
+| 358 | V    | Hydride transfer          | 05_37  |                 -0.57 |                 30.56 |        -31.13 |
+| 359 | V    | Hydride transfer          | 05_38  |                  8.26 |                 17.27 |         -9.02 |
+| 360 | V    | Hydride transfer          | 05_39  |                  5.34 |                 18.84 |        -13.50 |
+| 361 | V    | Hydride transfer          | 05_40  |                 -1.16 |                  7.89 |         -9.05 |
+| 362 | V    | Hydride transfer          | 05_41  |                 15.49 |                 19.55 |         -4.06 |
+| 363 | V    | Hydride transfer          | 05_42  |                  7.36 |                 18.18 |        -10.82 |
+| 364 | VI   | Si reactions              | 06_1   |                 15.72 |                 10.68 |          5.04 |
+| 365 | VI   | Si reactions              | 06_2   |                  2.24 |                 28.35 |        -26.12 |
+| 366 | VI   | Si reactions              | 06_3   |                  4.81 |                 25.87 |        -21.06 |
+| 367 | VI   | Si reactions              | 06_4   |                  4.62 |                 29.54 |        -24.91 |
+| 368 | VI   | B reactions               | 06_5   |                 14.75 |                 -1.06 |         15.80 |
+| 369 | VI   | Si reactions              | 06_6   |                  4.04 |                 19.53 |        -15.48 |
+| 370 | VI   | Si reactions              | 06_7   |                  3.89 |                 19.12 |        -15.24 |
+| 371 | VI   | Si reactions              | 06_8   |                  3.36 |                 21.63 |        -18.27 |
+| 372 | VI   | Si reactions              | 06_9   |                  5.78 |                 21.11 |        -15.32 |
+| 373 | VI   | B reactions               | 06_10  |                  3.49 |                 52.87 |        -49.38 |
+| 374 | VI   | B reactions               | 06_11  |                  1.31 |                 50.23 |        -48.92 |
+| 375 | VI   | B reactions               | 06_12  |                 20.32 |                 14.77 |          5.54 |
+| 376 | VI   | B reactions               | 06_13  |                 11.81 |                 16.75 |         -4.95 |
+| 377 | VI   | B reactions               | 06_14  |                 13.62 |                 10.81 |          2.80 |
+| 378 | VI   | Si reactions              | 06_15  |                  1.33 |                 27.06 |        -25.73 |
+| 379 | VI   | B reactions               | 06_16  |                 18.86 |                 53.61 |        -34.76 |
+| 380 | VI   | B reactions               | 06_17  |                 20.99 |                 54.73 |        -33.74 |
+| 381 | VI   | Si reactions              | 06_18  |                  7.60 |                 15.41 |         -7.82 |
+| 382 | VI   | Si reactions              | 06_19  |                  4.39 |                 13.75 |         -9.36 |
+| 383 | VI   | Si reactions              | 06_20  |                  4.00 |                 14.18 |        -10.18 |
+| 384 | VI   | Si reactions              | 06_21  |                 -1.69 |                  2.54 |         -4.23 |
+| 385 | VI   | Si reactions              | 06_22  |                  2.98 |                 12.74 |         -9.76 |
+| 386 | VI   | Si reactions              | 06_23  |                  1.07 |                 26.52 |        -25.45 |
+| 387 | VI   | B,Si reactions            | 06_24  |                  7.84 |                 61.88 |        -54.04 |
+| 388 | VI   | B,Si reactions            | 06_25  |                  8.11 |                 56.40 |        -48.28 |
+| 389 | VI   | B,Si reactions            | 06_26  |                  8.68 |                 55.38 |        -46.70 |
+| 390 | VI   | B,Si reactions            | 06_27  |                 21.41 |                 15.51 |          5.90 |
+| 391 | VI   | B,Si reactions            | 06_28  |                 20.08 |                 15.35 |          4.73 |
+| 392 | VI   | B,Si reactions            | 06_29  |                 18.58 |                 20.49 |         -1.91 |
+| 393 | VI   | B,Si reactions            | 06_30  |                 13.88 |                 15.61 |         -1.73 |
+| 394 | VI   | Si reactions              | 06_31  |                  2.21 |                 13.33 |        -11.12 |
+| 395 | VI   | Si reactions              | 06_32  |                  2.61 |                 13.62 |        -11.00 |
+| 396 | VI   | Si reactions              | 06_33  |                  1.43 |                 17.74 |        -16.31 |
+| 397 | VI   | Si reactions              | 06_34  |                  1.41 |                 13.67 |        -12.26 |
+| 398 | VI   | Si reactions              | 06_35  |                  5.79 |                 13.34 |         -7.55 |
+| 399 | VII  | Proton transfer           | 07_1   |                 37.29 |                 38.20 |         -0.91 |
+| 400 | VII  | Proton transfer           | 07_2   |                  0.84 |                  0.75 |          0.09 |
+| 401 | VII  | Proton transfer           | 07_3   |                 37.38 |                 37.14 |          0.24 |
+| 402 | VII  | Proton transfer           | 07_4   |                 12.73 |                  0.08 |         12.64 |
+| 403 | VII  | Proton transfer           | 07_5   |                 11.94 |                 71.12 |        -59.18 |
+| 404 | VII  | Proton transfer           | 07_6   |                 30.60 |                  3.14 |         27.46 |
+| 405 | VII  | Proton transfer           | 07_7   |                  3.08 |                 32.75 |        -29.68 |
+| 406 | VII  | Proton transfer           | 07_8   |                -31.63 |                -30.51 |         -1.12 |
+| 407 | VII  | Proton transfer           | 07_9   |                  4.73 |                  5.64 |         -0.91 |
+| 408 | VII  | Proton transfer           | 07_10  |                 17.32 |                 -0.47 |         17.79 |
+| 409 | VIII | Nucleophilic substitution | 08_1   |                 -3.21 |                 15.07 |        -18.28 |
+| 410 | VIII | Nucleophilic substitution | 08_2   |                 14.28 |                 -0.05 |         14.33 |
+| 411 | VIII | Nucleophilic substitution | 08_3   |                 13.63 |                 28.04 |        -14.41 |
+| 412 | VIII | Nucleophilic substitution | 08_4   |                 23.74 |                 29.96 |         -6.22 |
+| 413 | VIII | Nucleophilic substitution | 08_5   |                 -4.00 |                  4.56 |         -8.56 |
+| 414 | VIII | Nucleophilic substitution | 08_6   |                 20.98 |                 10.61 |         10.37 |
+| 415 | VIII | Nucleophilic substitution | 08_7   |                  9.10 |                 11.86 |         -2.76 |
+| 416 | VIII | Nucleophilic substitution | 08_8   |                 17.89 |                 15.80 |          2.09 |
+| 417 | VIII | Nucleophilic substitution | 08_9   |                  3.08 |                 -5.70 |          8.78 |
+| 418 | VIII | Nucleophilic substitution | 08_10  |                  3.14 |                  6.09 |         -2.95 |
+| 419 | VIII | Nucleophilic substitution | 08_11  |                 -2.99 |                 19.74 |        -22.72 |
+| 420 | VIII | Nucleophilic substitution | 08_12  |                 14.76 |                  6.60 |          8.16 |
+| 421 | VIII | Nucleophilic substitution | 08_13  |                 12.46 |                 18.94 |         -6.48 |
+| 422 | VIII | Nucleophilic substitution | 08_14  |                 32.38 |                 -2.33 |         34.71 |
+| 423 | VIII | Nucleophilic substitution | 08_15  |                 18.15 |                  2.87 |         15.27 |
+| 424 | IX   | Nucleophilic addition     | 09_1   |                 -0.94 |                  4.81 |         -5.76 |
+| 425 | IX   | Nucleophilic addition     | 09_2   |                 -4.35 |                  6.35 |        -10.71 |
+| 426 | IX   | Nucleophilic addition     | 09_3   |                 20.11 |                 29.26 |         -9.15 |
+| 427 | IX   | Nucleophilic addition     | 09_4   |                 17.01 |                 24.61 |         -7.59 |
+| 428 | IX   | Nucleophilic addition     | 09_5   |                 18.75 |                 26.00 |         -7.24 |
+| 429 | IX   | Nucleophilic addition     | 09_6   |                  7.22 |                 32.29 |        -25.06 |
+| 430 | IX   | Nucleophilic addition     | 09_7   |                  2.72 |                 17.07 |        -14.35 |
+| 431 | IX   | Nucleophilic addition     | 09_8   |                  1.90 |                 15.44 |        -13.54 |
+| 432 | IX   | Nucleophilic addition     | 09_9   |                  7.30 |                 33.00 |        -25.70 |
+| 433 | IX   | Nucleophilic addition     | 09_10  |                  0.22 |                  7.33 |         -7.11 |
+| 434 | IX   | Nucleophilic addition     | 09_11  |                 31.22 |                 14.12 |         17.10 |
+| 435 | IX   | Nucleophilic addition     | 09_12  |                 13.77 |                  0.34 |         13.43 |
+| 436 | IX   | Nucleophilic addition     | 09_13  |                  7.18 |                  9.50 |         -2.31 |
+| 437 | IX   | Nucleophilic addition     | 09_14  |                  4.89 |                 13.69 |         -8.80 |
+| 438 | IX   | Nucleophilic addition     | 09_15  |                  5.42 |                  8.25 |         -2.83 |
+| 439 | IX   | Nucleophilic addition     | 09_16  |                  3.82 |                 12.73 |         -8.92 |
+| 440 | IX   | Nucleophilic addition     | 09_17  |                  9.95 |                 30.33 |        -20.38 |
+| 441 | IX   | Nucleophilic addition     | 09_18  |                  6.92 |                 24.11 |        -17.19 |
+| 442 | IX   | Nucleophilic addition     | 09_19  |                 20.06 |                  9.65 |         10.41 |
+| 443 | IX   | Nucleophilic addition     | 09_20  |                  1.46 |                 11.03 |         -9.57 |
+| 444 | IX   | Nucleophilic addition     | 09_21  |                  1.23 |                 11.93 |        -10.69 |
+| 445 | IX   | Nucleophilic addition     | 09_22  |                 12.21 |                  3.51 |          8.69 |
+| 446 | IX   | Nucleophilic addition     | 09_23  |                  6.35 |                 13.38 |         -7.03 |
+| 447 | IX   | Nucleophilic addition     | 09_24  |                  7.58 |                 22.45 |        -14.87 |
+| 448 | IX   | Nucleophilic addition     | 09_25  |                  3.76 |                  8.69 |         -4.93 |
+| 449 | IX   | Nucleophilic addition     | 09_26  |                  6.41 |                  5.53 |          0.88 |

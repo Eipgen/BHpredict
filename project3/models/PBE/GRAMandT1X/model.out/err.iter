@@ -1,0 +1,17 @@
+nohup: ignoring input
+# datasets/data_train/rxn001961_p001961.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn001961_p001961.log
+# datasets/data_train/rxn002086_p002086.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn002086_p002086.log
+# datasets/data_train/rxn002837_p002837.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn002837_p002837.log
+# datasets/data_train/rxn005512_ts005512.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn005512_ts005512.log
+# datasets/data_train/rxn005671_p005671_1.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn005671_p005671_1.log
+# datasets/data_train/rxn005744_ts005744.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn005744_ts005744.log
+# datasets/data_train/rxn008552_p008552_0.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn008552_p008552_0.log
+# datasets/data_train/rxn011717_ts011717.log reset batch size to 0
+# ignore empty dataset: datasets/data_train/rxn011717_ts011717.log

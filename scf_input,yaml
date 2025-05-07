@@ -1,0 +1,4 @@
+basis: def2-tzvp
+dump_fields: [atom, e_base, e_tot, dm_eig, conv]
+scf_args: {conv_check: false, conv_tol: 1e-06, conv_tol_grad: 0.01}
+verbose: 1

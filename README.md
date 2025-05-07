@@ -40,6 +40,8 @@ The datasets is Below,  `QM` document contain the each type DFT training paramet
 
 `validate_sets` only contain the results
 
+
+
  ```python
 projects
 ├── QM
@@ -65,6 +67,11 @@ deepks test -m model.out/model.pth -d test.raw -o test_corr/test >L1L2.out
 ## or you can use `get_energy.py` get the output `energy`, for example
 python get_energy.py --model models/wb97M-V/GRAMandT1X/model.out/model.pth --raw RGD1_opt_wb97mv.raw
 ```
+generate the `dm_eig.npy` from xyz file.
+```
+deepks scf scf_input.yaml -m None -s xyzfile/test.xyz -X M06-2X -d result/
+```
+
 
 ## Results
 <div align="center">

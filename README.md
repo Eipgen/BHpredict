@@ -20,7 +20,7 @@ We use `mamba` here as an example. So first you may need to install [Miniforge](
 mamba create -n deepks python=3.9.0 paramiko=3.1.0 numpy scipy=1.10.1 h5py ruamel.yaml=0.17.21 paramiko=3.1.0
 mamba activate deepks
 pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1
-pip install pyscf=2.2.1
+pip install pyscf==2.2.1
 ```
 Then you can install deepks
 ```

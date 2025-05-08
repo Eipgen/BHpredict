@@ -13,6 +13,12 @@ args = parser.parse_args()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+""" if report `layer_norm` error, use below code"""
+#model_dict=torch.load(args.model, map_location=device)
+#if 'layer_norm' in model_dict['init_args']:
+#        del model_dict['init_args']['layer_norm']
+#model= CorrNet.load_dict(model_dict)
+
 model = CorrNet.load_dict(torch.load(args.model, map_location=device))
 elem_dict=model.elem_dict
 B = np.array([[key, value] for key, value in elem_dict.items()])

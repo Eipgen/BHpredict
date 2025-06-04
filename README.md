@@ -1,6 +1,6 @@
 # A Deep Learning-Augmented Density Functional Framework for Reaction Modeling with Chemical Accuracy
 
-this manual will tell you how to train and test with you datasets.
+This manual will tell you how to train and test with you datasets. The detail datasets can be found in zenodo.
 ## Install Requirements
 Install package version
 ```python

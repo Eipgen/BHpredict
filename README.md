@@ -85,6 +85,9 @@ deepks scf scf_input.yaml -m None -s xyzfile/test.xyz -X M06-2X -d result/
   <img src="./test_sets/Figure4.jpg" width="300px" alt="models in BH9">
   <p>Model performance was evaluated on independent test sets BH9 database(97 reactions) </p>
 </div>
-### Future usage, a useful example.   
+
+## Future usage, a useful example. 
 you can use the model to generate the energies which are close to CCSD(T)-F12a, and improve your model accuracy. you can find the results in https://doi.org/10.26434/chemrxiv-2025-1d293-v2
+<img width="756" height="467" alt="image" src="https://github.com/user-attachments/assets/4a344342-886f-4fd6-9e07-66dc08caf535" />
+
 

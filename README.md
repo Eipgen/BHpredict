@@ -91,3 +91,21 @@ you can use the model to generate the energies which are close to CCSD(T)-F12a, 
 <img width="756" height="467" alt="image" src="https://github.com/user-attachments/assets/4a344342-886f-4fd6-9e07-66dc08caf535" />
 
 
+## Citation
+If the codes and models help you, you can cite
+```
+@article{Jxiao2Reaction,
+  title         = {A Deep Learning-Augmented Density Functional Framework for Reaction Modeling with Chemical Accuracy},
+  author        = {Xiao, Jin and Zhang, Yingfeng and Li, Bowen and Zhang, Shuwen and Gao, Ya and Chen, Wei and Wang, Han and Zhang, John Z. H. and Zhu, Tong},
+  year          = {2025},
+  month         = jul,
+  journal       = {JACS Au},
+  publisher     = {American Chemical Society (ACS)},
+  volume        = {5},
+  number        = {8},
+  pages         = {3892–3903},
+  doi           = {10.1021/jacsau.5c00541},
+  issn          = {2691-3704},
+  url           = {http://dx.doi.org/10.1021/jacsau.5c00541}
+}
+```

@@ -1,6 +1,7 @@
 # A Deep Learning-Augmented Density Functional Framework for Reaction Modeling with Chemical Accuracy
 
 This manual will tell you how to train and test with you datasets. The detail datasets can be found in zenodo.
+
 ## Install Requirements
 Install package version
 ```python
@@ -85,6 +86,25 @@ deepks scf scf_input.yaml -m None -s xyzfile/test.xyz -X M06-2X -d result/
   <img src="./test_sets/Figure4.jpg" width="300px" alt="models in BH9">
   <p>Model performance was evaluated on independent test sets BH9 database(97 reactions) </p>
 </div>
-### Future usage, a useful example.   
+
+## Future usage, a useful example.   
 you can use the model to generate the energies which are close to CCSD(T)-F12a, and improve your model accuracy. you can find the results in https://doi.org/10.26434/chemrxiv-2025-1d293-v2
 
+## Citation
+If the codes and models help you, you can cite
+```
+@article{Jxiao2Reaction,
+  title         = {A Deep Learning-Augmented Density Functional Framework for Reaction Modeling with Chemical Accuracy},
+  author        = {Xiao, Jin and Zhang, Yingfeng and Li, Bowen and Zhang, Shuwen and Gao, Ya and Chen, Wei and Wang, Han and Zhang, John Z. H. and Zhu, Tong},
+  year          = {2025},
+  month         = jul,
+  journal       = {JACS Au},
+  publisher     = {American Chemical Society (ACS)},
+  volume        = {5},
+  number        = {8},
+  pages         = {3892–3903},
+  doi           = {10.1021/jacsau.5c00541},
+  issn          = {2691-3704},
+  url           = {http://dx.doi.org/10.1021/jacsau.5c00541}
+}
+```
